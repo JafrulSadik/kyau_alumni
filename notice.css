@@ -1,0 +1,27 @@
+.notice{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.notice_board{
+    width: 70%;
+}
+
+.notice_header{
+    width: 100%;
+    text-align: center;
+    height: 120px;
+    background-color: #f6783a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.notice_header > p{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}

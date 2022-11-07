@@ -1,0 +1,41 @@
+#main-content{
+    
+    padding: 25px;
+    min-height: 400px;
+}
+#main-content h2{
+    margin: 0 0 10px;
+    text-transform: capitalize;
+}
+#main-content table{
+width: 100%;
+background-color: #555;
+margin: 0 0 20px;
+}
+#main-content table th{
+    color:#fff;
+    background-color: #333;
+    text-transform: uppercase;
+}
+
+#main-content table th:last-child{
+    width: 130px;
+}
+
+#main-content table td{
+    background-color: #fff;;
+}
+#main-content table tbody td form input{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 3px 7px;
+    color: #fff;
+    background-color: #e67e22;
+    text-decoration: none;
+    border-radius: 3px;
+}
+#main-content table td a:nth-child(2){
+    background-color: #e74c3c;
+    margin: 0 0 0 5px;
+}

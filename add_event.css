@@ -1,0 +1,39 @@
+.input_from_sect{
+    margin: 20px 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#add_event_input_form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: right;
+    width: 80%;
+}
+
+#add_event_input_form > input {
+    border: 1px solid lightgray;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+}
+
+#add_event_input_form > textarea {
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+#add_event_input_form > button {
+    padding: 10px;
+    background-color: rgb(3, 28, 53);
+    color: white;
+    width: 150px;
+}
+
+#post_file_input {
+    border: 1px solid white; 
+}

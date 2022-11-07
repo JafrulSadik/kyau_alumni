@@ -1,0 +1,69 @@
+
+
+/************************* user profile css ***********************/
+
+.your_profile {
+    text-align: center;
+}
+
+.your_profile > p {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.user_img_text{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+    /* border: 5px solid #EFA36D; */
+    padding: 20px;
+    gap: 0px 20px;
+    position: relative;
+   
+}
+
+.user_img{
+    flex: 3;
+}
+
+.user_img > img{
+    width: 100%;
+}
+
+.user_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+    flex: 7;
+}
+
+.user_text_name{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.user_text_desg{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.user_text_email{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.user_edit_profile{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.user_edit_profile> button{
+    border: none;
+    background-color: rgb(100, 100, 247);
+    color: azure;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+
+

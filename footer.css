@@ -1,0 +1,15 @@
+.footer {
+    width: 100vw;
+    box-sizing: content-box;
+    /* background-color: #282a35; */
+    background-color: #0b1727;
+    color: #ffffffc5;
+    padding-top: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 10px;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5%;
+  }

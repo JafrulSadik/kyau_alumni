@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.l-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #7dbb5c;
+}
+
+.l-form {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 250px;
+  width: 300px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.l-form button {
+  padding: 10px;
+  border: none;
+  background-color: #7dbb5c;
+  color: #ffffff;
+}
+
+.l-form input {
+  outline: none;
+  height: 90px;
+  border: none;
+  background-color: #d0c7c744;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+}
